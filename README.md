@@ -1,5 +1,5 @@
 # Todoist-GCal
-
+```
 Functionality:
 
 GCal = Google Calendar
@@ -13,3 +13,4 @@ When a Todoist task is created:
 *When a Todoist task is marked as uncompleted, the GTasks task must delete itself and a GCal event with the original values for <priority>, <section>, etc is created
 
 Ideally, since each Todoist task has its own unique identifier, each Todoist action on a Todoist task should perform a check to see if that GCal event/GTasks task exists and/or if the fields match the existing one. If it doesn't, it should ensure the GCal event/GTasks task exists and matches.
+```
